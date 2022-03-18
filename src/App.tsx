@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.less";
-import GitHubButton from "react-github-btn";
+// import GitHubButton from "react-github-btn";
 import { Routes } from "./routes";
 
 function App() {

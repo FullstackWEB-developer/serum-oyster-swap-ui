@@ -336,7 +336,7 @@ const UseNativeAccount = () => {
         setNativeAccount(acc);
       }
     });
-  }, [setNativeAccount, wallet, wallet?.publicKey, connection]);
+  }, [setNativeAccount, wallet, connection]);
 
   useEffect(() => {
     if (!wallet?.publicKey) {
